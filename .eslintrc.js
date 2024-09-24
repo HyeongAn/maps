@@ -19,7 +19,7 @@ module.exports = {
     "plugin:react-hooks/recommended",
     "prettier",
   ],
-  plugins: ["@typescript-eslint", "import", "react", "react-hooks"],
+  plugins: ["@typescript-eslint", "import", "react", "react-hooks", "jest"],
   settings: {
     "import/resolver": { typescript: {} },
     react: { version: "detect" },
