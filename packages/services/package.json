@@ -1,5 +1,5 @@
 {
-  "name": "services",
+  "name": "@maps/services",
   "packageManager": "yarn@4.4.1",
   "main": "src/index.ts",
   "devDependencies": {

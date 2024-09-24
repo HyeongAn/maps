@@ -2014,6 +2014,41 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@maps/lib@workspace:^, @maps/lib@workspace:packages/lib":
+  version: 0.0.0-use.local
+  resolution: "@maps/lib@workspace:packages/lib"
+  dependencies:
+    typescript: "npm:^5.6.2"
+  languageName: unknown
+  linkType: soft
+
+"@maps/services@workspace:^, @maps/services@workspace:packages/services":
+  version: 0.0.0-use.local
+  resolution: "@maps/services@workspace:packages/services"
+  dependencies:
+    "@types/node": "npm:^22.5.5"
+    "@types/react": "npm:^18.3.8"
+    "@types/react-dom": "npm:^18.3.0"
+    axios: "npm:^1.7.7"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    typescript: "npm:^5.6.2"
+  languageName: unknown
+  linkType: soft
+
+"@maps/ui@workspace:^, @maps/ui@workspace:packages/ui":
+  version: 0.0.0-use.local
+  resolution: "@maps/ui@workspace:packages/ui"
+  dependencies:
+    "@types/node": "npm:^22.5.5"
+    "@types/react": "npm:^18.3.8"
+    "@types/react-dom": "npm:^18.3.0"
+    react: "npm:^18.3.1"
+    react-dom: "npm:^18.3.1"
+    typescript: "npm:^5.6.2"
+  languageName: unknown
+  linkType: soft
+
 "@next/env@npm:14.2.13":
   version: 14.2.13
   resolution: "@next/env@npm:14.2.13"
@@ -7411,14 +7446,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lib@workspace:^, lib@workspace:packages/lib":
-  version: 0.0.0-use.local
-  resolution: "lib@workspace:packages/lib"
-  dependencies:
-    typescript: "npm:^5.6.2"
-  languageName: unknown
-  linkType: soft
-
 "lighthouse-logger@npm:^1.0.0":
   version: 1.4.2
   resolution: "lighthouse-logger@npm:1.4.2"
@@ -8135,20 +8162,20 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "next-app@workspace:apps/next-app"
   dependencies:
+    "@maps/lib": "workspace:^"
+    "@maps/services": "workspace:^"
+    "@maps/ui": "workspace:^"
     "@types/node": "npm:^20"
     "@types/react": "npm:^18"
     "@types/react-dom": "npm:^18"
     eslint: "npm:^8"
     eslint-config-next: "npm:14.2.13"
-    lib: "workspace:^"
     next: "npm:14.2.13"
     postcss: "npm:^8"
     react: "npm:^18"
     react-dom: "npm:^18"
-    services: "workspace:^"
     tailwindcss: "npm:^3.4.1"
     typescript: "npm:^5"
-    ui: "workspace:^"
   languageName: unknown
   linkType: soft
 
@@ -9621,20 +9648,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"services@workspace:^, services@workspace:packages/services":
-  version: 0.0.0-use.local
-  resolution: "services@workspace:packages/services"
-  dependencies:
-    "@types/node": "npm:^22.5.5"
-    "@types/react": "npm:^18.3.8"
-    "@types/react-dom": "npm:^18.3.0"
-    axios: "npm:^1.7.7"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
-    typescript: "npm:^5.6.2"
-  languageName: unknown
-  linkType: soft
-
 "set-blocking@npm:^2.0.0":
   version: 2.0.0
   resolution: "set-blocking@npm:2.0.0"
@@ -10521,19 +10534,6 @@ __metadata:
   checksum: 10c0/94eb47e130d3edd964b76da85975601dcb3604b0c848a36f63ac448d0104e93819d94c8bdf6b07c00120f2ce9c05256b8b6092d23cf5cf1c6fa911159e4d572f
   languageName: node
   linkType: hard
-
-"ui@workspace:^, ui@workspace:packages/ui":
-  version: 0.0.0-use.local
-  resolution: "ui@workspace:packages/ui"
-  dependencies:
-    "@types/node": "npm:^22.5.5"
-    "@types/react": "npm:^18.3.8"
-    "@types/react-dom": "npm:^18.3.0"
-    react: "npm:^18.3.1"
-    react-dom: "npm:^18.3.1"
-    typescript: "npm:^5.6.2"
-  languageName: unknown
-  linkType: soft
 
 "unbox-primitive@npm:^1.0.2":
   version: 1.0.2

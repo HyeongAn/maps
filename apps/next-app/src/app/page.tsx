@@ -1,5 +1,5 @@
-import { sayHello } from "lib"
-import { Button } from "ui"
+import { sayHello } from "@maps/lib"
+import { Button } from "@maps/ui"
 
 export default function Home() {
   return (

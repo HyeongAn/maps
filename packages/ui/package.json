@@ -1,5 +1,5 @@
 {
-  "name": "ui",
+  "name": "@maps/ui",
   "packageManager": "yarn@4.4.1",
   "main": "src/index.ts",
   "devDependencies": {

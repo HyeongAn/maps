@@ -7,11 +7,12 @@ NodeJS v18.19.0
 NextJS v14.2.13
 React v18^
 yarn v4.4.1
-eslint v2.2.6
+eslint ^8
+eslint v2.2.6 (vscode 확장)
 react-native v0.75.3
 ```
 
-apps 하위에 nextJS로 이루어진 web버전이 있습니다.
+apps 하위에 NextJS로 이루어진 next-app과 React-native로 이루어진 webview가 있습니다.
 실행방법은 아래와 같습니다.
 
 ```

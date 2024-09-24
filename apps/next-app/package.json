@@ -9,12 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "lib": "workspace:^",
+    "@maps/lib": "workspace:^",
+    "@maps/services": "workspace:^",
+    "@maps/ui": "workspace:^",
     "next": "14.2.13",
     "react": "^18",
-    "react-dom": "^18",
-    "services": "workspace:^",
-    "ui": "workspace:^"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
