@@ -1,6 +1,8 @@
-import type { Metadata } from "next"
-import { pretendard } from "utils/font"
 import "./globals.css"
+import KaKaoScript from "components/external/KaKaoScript"
+import { pretendard } from "fonts/font"
+import type { Metadata } from "next"
+import Providers from "providers/Providers"
 
 export const metadata: Metadata = {
   title: "Maps",
@@ -25,7 +27,10 @@ export default function RootLayout({
         <meta name="naver-site-verification" content="2c1f7d33f11733ca0be39877699d905573c7cce3" />
         <meta name="naver-site-verification" content="d703060d9f33d4ba99d672a2c57258fff0a7299d" /> */}
       </head>
-      <body className={pretendard.variable}>{children}</body>
+      <body className={pretendard.variable}>
+        <KaKaoScript />
+        <Providers>{children}</Providers>
+      </body>
     </html>
   )
 }
