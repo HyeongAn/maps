@@ -1,6 +1,6 @@
 import { KAKAO_SDK_API, KAKAO_SDK_MAPS_API } from "constants/api"
-import Script from "next/script"
 import React from "react"
+import Script from "next/script"
 
 const KaKaoScript = () => {
   return (

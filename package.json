@@ -2,6 +2,13 @@
   "name": "maps",
   "private": true,
   "packageManager": "yarn@4.4.1",
+  "scripts": {
+    "dev:next": "yarn workspace next-app run dev",
+    "build:next": "yarn workspace next-app run build",
+    "dev:native": "yarn workspace webview run ios",
+    "install:webview": "cd apps/webview && yarn install",
+    "install:ios": "cd apps/webview/ios && pod install"
+  },
   "workspaces": [
     "packages/*",
     "apps/*"

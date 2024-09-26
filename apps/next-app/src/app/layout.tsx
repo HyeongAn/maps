@@ -1,4 +1,5 @@
 import "./globals.css"
+import React from "react"
 import KaKaoScript from "components/external/KaKaoScript"
 import { pretendard } from "fonts/font"
 import type { Metadata } from "next"

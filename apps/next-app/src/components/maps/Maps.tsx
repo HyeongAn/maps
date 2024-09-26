@@ -1,7 +1,7 @@
 "use client"
+import React, { useEffect, useRef } from "react"
 import useGeoCurrentPosition from "hooks/useGeoCurrentPosition"
 import useGeoWatchPosition from "hooks/useGeoWatchPosition"
-import React, { useEffect, useRef } from "react"
 
 const Maps = () => {
   const mapRef = useRef<HTMLDivElement>(null)

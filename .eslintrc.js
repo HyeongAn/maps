@@ -81,7 +81,12 @@ module.exports = {
       "error",
       {
         groups: ["builtin", "external", "internal", "parent", "sibling", "index", "object"],
+        pathGroups: [
+          { pattern: "react", group: "builtin", position: "after" },
+          { pattern: "react-dom", group: "builtin", position: "after" },
+        ],
         alphabetize: { order: "asc", caseInsensitive: true },
+        pathGroupsExcludedImportTypes: ["react", "react-dom"],
       },
     ],
 
