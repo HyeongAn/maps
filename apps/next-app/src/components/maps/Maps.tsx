@@ -10,7 +10,7 @@ const Maps = () => {
   const currentPosition = useGeoCurrentPosition()
   const watchPosition = useGeoWatchPosition()
 
-  // console.log("complete")
+  console.log("complete")
 
   useEffect(() => {
     if (window.kakao) {
