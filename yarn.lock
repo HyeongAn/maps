@@ -2016,11 +2016,12 @@ __metadata:
 
 "@maps/lib@file:../../packages/lib::locator=webview%40workspace%3Aapps%2Fwebview":
   version: 0.0.0
-  resolution: "@maps/lib@file:../../packages/lib#../../packages/lib::hash=5e6ba7&locator=webview%40workspace%3Aapps%2Fwebview"
+  resolution: "@maps/lib@file:../../packages/lib#../../packages/lib::hash=29b2db&locator=webview%40workspace%3Aapps%2Fwebview"
   dependencies:
+    "@tanstack/react-query": "npm:^5.56.2"
     recoil: "npm:^0.7.7"
     typescript: "npm:^5.6.2"
-  checksum: 10c0/8932155530feb65823399aa26ffa41a481096b2264a466595e44a353752ef01a4ef4f0743c9ed63df039cf296bf8cdca36374db03a4557d7b77676ece9ac72e3
+  checksum: 10c0/57232aa2328a2d6603e4a5c378d86fb651234fccdf011427f0559ee4668598cf12e2d871777d3eddda6c369995fa243b0d933d4bc3c3eabd0bc7831d48dadde7
   languageName: node
   linkType: hard
 
