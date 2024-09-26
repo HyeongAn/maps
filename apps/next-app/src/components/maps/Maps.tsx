@@ -9,7 +9,7 @@ const Maps = () => {
   const markerInstance = useRef<any>(null)
   const currentPosition = useGeoCurrentPosition()
   const watchPosition = useGeoWatchPosition()
-
+  console.log("update")
   useEffect(() => {
     if (window.kakao) {
       window.kakao.maps.load(() => {
