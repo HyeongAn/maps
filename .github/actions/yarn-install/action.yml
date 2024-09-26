@@ -1,6 +1,14 @@
 name: "Monorepo install (yarn)"
 description: "Run yarn install"
 
+inputs:
+  vercel-token:
+    description: "Vercel token"
+    required: true
+  vercel-project-id:
+    description: "Vercel project ID"
+    required: true
+
 runs:
   using: "composite"
 
